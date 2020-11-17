@@ -8,7 +8,7 @@ LABEL maintainer="zS18003180@estudiantes.uv.mx"
 VOLUME /tmp
 
 # Make port 8080 available to the world outside this container
-EXPOSE 8192
+EXPOSE 5028
 
 # The application's jar file
 ARG JAR_FILE=target/SpringBootJwtAuthenticationApplicationTests.java
